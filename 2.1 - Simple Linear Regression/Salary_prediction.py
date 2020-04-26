@@ -15,6 +15,7 @@ y = dataset.iloc[:, 1].values # take Dependent Col
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 
+
 # STEP 4 - fitting simple linear regression to Training Set
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
